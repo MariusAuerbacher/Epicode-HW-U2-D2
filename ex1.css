@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header,
+footer {
+background-color: black;
+min-height: 13vh;
+color: white;
+padding-left: 20px;
+padding-top: 20px;
+
+}
+
+article{
+  color: black;
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+aside{
+  background-color: #320388;
+  flex-grow: 1;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+nav{
+  background-color: #c22177;
+  flex-grow: 1;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.flex{
+  display: flex;
+  min-width: 100vh;
+  height: 74vh;
+  min-height: 100%;
+}
